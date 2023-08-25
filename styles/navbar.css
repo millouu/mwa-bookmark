@@ -1,0 +1,44 @@
+navbar {
+  font-family: var(--avant-garde);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 70px;
+  border-bottom: 2px solid #fa6400;
+  position: relative;
+}
+
+.nav-links {
+  list-style: none;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+}
+
+.main-logo img {
+  height: 60px;
+  object-fit: contain;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.socials img {
+  height: 20px;
+  object-fit: contain;
+}

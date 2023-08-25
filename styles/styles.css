@@ -1,0 +1,40 @@
+@import url("../styles/navbar.css");
+
+@font-face {
+  font-family: "ITC Avant Garde Gothic Std";
+  src: url("../fonts/ITCAvantGardeStd-Bk.otf") format(opentype);
+}
+@font-face {
+  font-family: "ITC Avant Garde Gothic Std";
+  src: url("../fonts/ITCAvantGardeStd-Bold.otf") format(opentype);
+}
+
+:root {
+  --avant-garde: "ITC Avant Garde Gothic Std";
+}
+
+* {
+  font-family: var(--avant-garde);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.promo-ribbon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFB600;
+  padding: 15px;
+  gap: 10px;
+}
+
+.promo-ribbon a{
+  font-size: 20px;
+  color:black;
+  text-decoration: none;
+}
+
+.promo-ribbon img{
+  height: 20px;
+}
