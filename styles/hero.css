@@ -1,0 +1,86 @@
+.hero {
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.hero hr {
+  border: 1px solid #bebebe;
+}
+
+.hero-main {
+  /* flex: 1; */
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  border-left: 1px solid #bebebe;
+
+  /* font-weight: bold; */
+}
+
+.hero-main img {
+  width: 820px;
+  object-fit: contain;
+}
+
+.hero-main:hover{
+    cursor: pointer;
+}
+
+.hero-main__title {
+  font-size: 50px;
+  font-weight: medium;
+  /* color: #fa6400; */
+}
+
+.hero-main:hover .hero-main__title {
+  color: #FA6400;
+}
+
+.hero__features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 40px;
+  border-left: 1px solid #bebebe;
+
+}
+
+.hero__features-list-title {
+  background-color: #fa6400;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 5px 10px;
+}
+
+.hero_feature-list-card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.hero__features-list-card {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.hero__features-list-card:hover {
+  cursor: pointer;
+}
+
+.hero__features-list-card img {
+  width: 180px;
+  object-fit: contain;
+}
+
+.hero__features-list-card p {
+  font-size: 18px;
+  font-weight: medium;
+}
+
+.hero__features-list-card:hover p {
+    color: #FA6400;
+  }

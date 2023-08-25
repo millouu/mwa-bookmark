@@ -5,12 +5,16 @@ navbar {
   justify-content: space-between;
   padding: 50px 70px;
   border-bottom: 2px solid #fa6400;
-  position: relative;
+  position: fixed; /* Change from "relative" to "fixed" */
+  top: 0; /* Stick to the top of the screen */
+  width: 100%; /* Occupy the full width */
+  background-color: white; /* Optional: Set the background color */
+  z-index: 1000; /* Optional: Adjust the z-index as needed */
 }
 
 .nav-links {
   list-style: none;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 1rem;
   letter-spacing: 1px;
   color: black;
