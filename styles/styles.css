@@ -1,6 +1,7 @@
 @import url("../styles/navbar.css");
 @import url("../styles/hero.css");
 @import url("../styles/trending.css");
+@import url("../styles/bundle-banner.css");
 
 @font-face {
   font-family: "ITC Avant Garde Gothic Std";
@@ -37,6 +38,14 @@ body {
   background-color: #ffb600;
   padding: 15px;
   gap: 10px;
+}
+
+.promo-ribbon:hover{
+  cursor: pointer;
+}
+
+.promo-ribbon:hover a{
+  text-decoration: underline;
 }
 
 .promo-ribbon a {

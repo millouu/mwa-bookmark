@@ -1,0 +1,46 @@
+.bundle-banner {
+  padding: 0px 100px;
+  padding-bottom: 50px;
+}
+
+.bundle-card{
+    border:2px solid black;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.bundle-details{
+    display: flex;
+    flex-direction: column;
+    background-color: #e6e6e6;
+}
+
+.bundle-image{
+    height: 100%;
+    border-left: 2px solid black;
+}
+
+.bundle-image img { 
+  /* width: 875.875px; */
+  height: 587.912px;
+  object-fit: fill;
+}
+
+.shop-now{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    letter-spacing: 2px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.shop-now img{
+    width: 20px;
+    object-fit: contain;
+}
