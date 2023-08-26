@@ -15,16 +15,20 @@ navbar {
 .nav-links {
   list-style: none;
   font-weight: bold;
-  font-size: 1rem;
-  letter-spacing: 1px;
-  color: black;
   display: flex;
   flex-direction: row;
   gap: 30px;
 }
 
 .nav-links li a {
+  color: black;
+  font-size: 1rem;
   text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.nav-links li a:hover{
+  color: #FA6400;
 }
 
 .main-logo img {
