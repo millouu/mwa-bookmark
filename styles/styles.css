@@ -1,10 +1,11 @@
 @import url("../styles/navbar.css");
-@import url("../styles/hero.css");
-@import url("../styles/trending.css");
-@import url("../styles/bundle-banner.css");
-@import url("../styles/summer-collection.css");
-@import url("../styles/blogs.css");
-@import url("../styles/newsletter.css");
+@import url("../styles/landing/hero.css");
+@import url("../styles/landing/trending.css");
+@import url("../styles/landing/bundle-banner.css");
+@import url("../styles/landing/summer-collection.css");
+@import url("../styles/landing/blogs.css");
+@import url("../styles/landing/newsletter.css");
+@import url("./footer.css");
 
 @font-face {
   font-family: "ITC Avant Garde Gothic Std Lt";
