@@ -6,6 +6,7 @@
 @import url("../styles/landing/blogs.css");
 @import url("../styles/landing/newsletter.css");
 @import url("./footer.css");
+@import url("./loginpage.css");
 
 @font-face {
   font-family: "ITC Avant Garde Gothic Std Lt";
