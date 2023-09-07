@@ -41,7 +41,7 @@
             <img src="/assets/YouTube.svg" alt="YouTube" />
           </div>
         </div>
-        <button class="login" id="loginButton" onclick="login.html">Login</button>
+        <div class="login-container"><button class="login" id="loginButton">Login</button></div>
       </div>
     </navbar>
     <section class="promo-ribbon">
@@ -398,11 +398,6 @@
       </div>
     </section>
 
-    <script>
-      const navigateButton = document.getElementById("loginButton");
-      navigateButton.addEventListener("click", function () {
-        window.location.href = "login.html";
-      });
-    </script>
+    <script src="./scripts/index.js" type="module"></script>
   </body>
 </html>
